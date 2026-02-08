@@ -52,6 +52,7 @@ plt.xlabel('X')
 plt.ylabel('Y')
 plt.title('2D Scatterplot with Separating Line')
 plt.legend(['Class 0', 'Class 1', 'Separating Line'])
+plt.savefig('scatter_plot.png',dpi=300)
 plt.show()
 
-plt.savefig('scatter_plot.png',dpi=300)
+
